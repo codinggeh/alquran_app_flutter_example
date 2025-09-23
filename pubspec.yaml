@@ -1,0 +1,58 @@
+name: alquran_app
+description: "Al-Quran mobile app dengan UI yang cakep dan modern"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Localization
+  easy_localization: ^3.0.3
+  
+  # Network & API
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # Audio
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # UI & Utils
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  pull_to_refresh: ^2.0.0
+  
+  # Fonts
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/audio/
+    - assets/i18n/
+  
+  fonts:
+    - family: Uthmanic
+      fonts:
+        - asset: assets/fonts/UthmanicHafs1Ver18.ttf
