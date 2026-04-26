@@ -2,9 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ v1 ]
+    branches: [ main ]
   pull_request:
-    branches: [ v1 ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -19,11 +19,11 @@ jobs:
         channel: 'stable'
     
     - run: flutter pub get
-    - run: flutter build web --release
+    - run: flutter build web --release --base-href /alquran_app_flutter_example/
     
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/v1'
+      if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build/web 

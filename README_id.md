@@ -6,7 +6,7 @@ Aplikasi mobile Flutter yang indah untuk membaca Al-Quran dengan desain UI/UX mo
 
 ## 🎯 Ikhtisar Proyek
 
-Ini adalah **PROYEK DEMONSTRASI** yang dibuat oleh [CodingGeh](https://github.com/Coding-Geh) untuk menampilkan:
+Ini adalah **PROYEK DEMONSTRASI** yang dibuat oleh [CodingGeh](https://github.com/codinggeh) untuk menampilkan:
 - Kemampuan pengembangan Flutter
 - Prinsip desain UI/UX modern
 - Kemampuan integrasi API
@@ -102,8 +102,8 @@ Aplikasi ini menggunakan **AlQuran Cloud API** untuk data Al-Quran:
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/Coding-Geh/alquran_app.git
-   cd alquran_app
+   git clone https://github.com/codinggeh/alquran_app_flutter_example.git
+   cd alquran_app_flutter_example
    ```
 
 2. **Install dependencies**
@@ -207,8 +207,8 @@ Ini adalah proyek demo, tetapi kontribusi untuk tujuan edukasi dipersilakan:
 ## 📞 Kontak
 
 - **Developer**: CodingGeh
-- **GitHub**: [@Coding-Geh](https://github.com/Coding-Geh)
-- **Repository**: [alquran_app](https://github.com/Coding-Geh/alquran_app)
+- **GitHub**: [@codinggeh](https://github.com/codinggeh)
+- **Repository**: [alquran_app_flutter_example](https://github.com/codinggeh/alquran_app_flutter_example)
 
 ## 🙏 Ucapan Terima Kasih
 
