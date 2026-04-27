@@ -10,6 +10,7 @@ class HomeHeader extends StatelessWidget {
   final String searchQuery;
   final ValueChanged<String> onSearchChanged;
   final VoidCallback onLanguageTap;
+  final VoidCallback onDisclaimerTap;
   final VoidCallback onBookmarkTap;
 
   const HomeHeader({
@@ -18,6 +19,7 @@ class HomeHeader extends StatelessWidget {
     required this.searchQuery,
     required this.onSearchChanged,
     required this.onLanguageTap,
+    required this.onDisclaimerTap,
     required this.onBookmarkTap,
   });
 
@@ -30,6 +32,8 @@ class HomeHeader extends StatelessWidget {
           _buildSearchBar(),
           const SizedBox(width: 12),
           _buildLanguageButton(context),
+          const SizedBox(width: 8),
+          _buildDisclaimerButton(),
           const SizedBox(width: 8),
           _buildBookmarkButton(),
         ],
@@ -120,6 +124,14 @@ class HomeHeader extends StatelessWidget {
     return ActionButton(
       icon: Icons.bookmark_outline_rounded,
       onTap: onBookmarkTap,
+      size: 48,
+    );
+  }
+
+  Widget _buildDisclaimerButton() {
+    return ActionButton(
+      icon: Icons.info_outline_rounded,
+      onTap: onDisclaimerTap,
       size: 48,
     );
   }

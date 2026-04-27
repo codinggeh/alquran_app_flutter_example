@@ -7,6 +7,7 @@ import 'providers/bookmark_provider.dart';
 import 'providers/quran_provider.dart';
 import 'providers/theme_provider.dart';
 import 'screens/bookmarks_screen.dart';
+import 'screens/disclaimer_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/surah_detail_screen.dart';
 import 'utils/constants.dart';
@@ -57,6 +58,7 @@ class MyApp extends StatelessWidget {
                 return SurahDetailScreen(surahNumber: surahNumber);
               },
               '/bookmarks': (context) => const BookmarksScreen(),
+              '/disclaimer': (context) => const DisclaimerScreen(),
             },
             debugShowCheckedModeBanner: false,
           );

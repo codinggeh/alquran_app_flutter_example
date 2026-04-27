@@ -90,6 +90,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           searchQuery: _searchQuery,
           onSearchChanged: _onSearchChanged,
           onLanguageTap: _switchLanguage,
+          onDisclaimerTap: _navigateToDisclaimer,
           onBookmarkTap: _navigateToBookmarks,
         ),
       ),
@@ -161,6 +162,10 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
 
   void _navigateToBookmarks() {
     Navigator.pushNamed(context, '/bookmarks');
+  }
+
+  void _navigateToDisclaimer() {
+    Navigator.pushNamed(context, '/disclaimer');
   }
 
   List<dynamic> _filterSurahs(List<dynamic> surahs, String query) {
