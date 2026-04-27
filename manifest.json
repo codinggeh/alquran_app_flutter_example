@@ -1,11 +1,11 @@
 {
-    "name": "alquran_app",
-    "short_name": "alquran_app",
+    "name": "AlQuran App",
+    "short_name": "AlQuran",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Flutter demo app for reading Al-Quran with translations, bookmarks, and audio recitation.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -84,6 +84,31 @@
     "version": "Versi",
     "developer": "Developer"
   },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "eyebrow": "Catatan penting",
+    "headline": "Aplikasi ini adalah proyek demo, bukan produk religius siap produksi.",
+    "intro": "AlQuran App dibuat untuk menampilkan kemampuan pengembangan Flutter, termasuk state management, integrasi API, lokalisasi, pemutaran audio, dan UI mobile yang rapi. Konten dan implementasi di dalamnya perlu dipahami sebagai materi demonstrasi.",
+    "footer_note": "Untuk penggunaan religius yang nyata, pengguna sebaiknya mengandalkan sumber Al-Quran yang tepercaya dan produk resmi, lalu tetap memverifikasi teks dan terjemahan secara mandiri.",
+    "sections": {
+      "demo": {
+        "title": "Hanya untuk tujuan demo",
+        "body": "Repository ini dibuat untuk menunjukkan kemampuan engineering dan desain. Ini bukan representasi aplikasi komersial atau aplikasi religius yang sudah final."
+      },
+      "warranty": {
+        "title": "Tanpa jaminan konten",
+        "body": "Developer tidak memberikan jaminan atas akurasi, kelengkapan, atau interpretasi teks Al-Quran, terjemahan, maupun audio yang disajikan melalui aplikasi ini."
+      },
+      "api": {
+        "title": "Bergantung pada API publik",
+        "body": "Aplikasi ini memakai API Al-Quran publik dan sumber audio eksternal. Ketersediaan, akurasi, dan stabilitas jangka panjang bergantung pada layanan pihak ketiga tersebut."
+      },
+      "education": {
+        "title": "Untuk edukasi dan portofolio",
+        "body": "Kode boleh dipelajari untuk tujuan pembelajaran, tetapi deployment produksi atau penggunaan religius yang sensitif tetap memerlukan review, validasi, dan kepemilikan operasional yang jauh lebih kuat."
+      }
+    }
+  },
   "common": {
     "loading": "Memuat...",
     "error": "Terjadi kesalahan",
